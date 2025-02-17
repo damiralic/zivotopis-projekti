@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\",
+  "WorkspaceRootPath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\controllers\\notebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\controllers\\notebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:controllers\\notebookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\models\\dtos\\notebookpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:models\\dtos\\notebookpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\models\\notebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\models\\dtos\\notebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:models\\dtos\\notebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\models\\notebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:models\\notebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\dotnetprojects\\notebookapp\\models\\dtos\\notebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:models\\dtos\\notebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\models\\dtos\\notebookpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:models\\dtos\\notebookpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\notebookapp .net core \u002B angular\\notebookapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63B18365-D441-4B7C-9F3D-3FB25F0B379C}|NotebookApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,39 +38,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NotebookPageDTO.cs",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Models\\DTOs\\NotebookPageDTO.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Models\\DTOs\\NotebookPageDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\NotebookPageDTO.cs",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Models\\DTOs\\NotebookPageDTO.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Models\\DTOs\\NotebookPageDTO.cs",
               "RelativeToolTip": "Models\\DTOs\\NotebookPageDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:52:06.355Z"
+              "WhenOpened": "2024-11-25T23:52:06.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "NotebookController.cs",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Controllers\\NotebookController.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Controllers\\NotebookController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotebookController.cs",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Controllers\\NotebookController.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Controllers\\NotebookController.cs",
               "RelativeToolTip": "Controllers\\NotebookController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAWwCEAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T15:02:17.514Z"
+              "WhenOpened": "2024-11-23T15:02:17.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Program.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Program.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +81,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,35 +94,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "NotebookDTO.cs",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Models\\DTOs\\NotebookDTO.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Models\\DTOs\\NotebookDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\NotebookDTO.cs",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Models\\DTOs\\NotebookDTO.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Models\\DTOs\\NotebookDTO.cs",
               "RelativeToolTip": "Models\\DTOs\\NotebookDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:49:50.366Z"
+              "WhenOpened": "2024-11-23T14:49:50.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Notebook.cs",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Models\\Notebook.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Models\\Notebook.cs",
               "RelativeDocumentMoniker": "Models\\Notebook.cs",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\Models\\Notebook.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\Models\\Notebook.cs",
               "RelativeToolTip": "Models\\Notebook.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:49:29.586Z"
+              "WhenOpened": "2024-11-23T14:49:29.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\appsettings.json",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\appsettings.json",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core \u002B Angular\\NotebookApp\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

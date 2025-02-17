@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\NotebookApp.csproj": {}
+    "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core + Angular\\NotebookApp\\NotebookApp.csproj": {}
   },
   "projects": {
-    "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\NotebookApp.csproj": {
+    "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core + Angular\\NotebookApp\\NotebookApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\NotebookApp.csproj",
+        "projectUniqueName": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core + Angular\\NotebookApp\\NotebookApp.csproj",
         "projectName": "NotebookApp",
-        "projectPath": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\NotebookApp.csproj",
+        "projectPath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core + Angular\\NotebookApp\\NotebookApp.csproj",
         "packagesPath": "C:\\Users\\Damir\\.nuget\\packages\\",
-        "outputPath": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\obj\\",
+        "outputPath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core + Angular\\NotebookApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Damir\\AppData\\Roaming\\NuGet\\NuGet.Config",

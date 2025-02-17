@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x2Bns/4KN4g=",
+  "dgSpecHash": "WCnpPA8OenU=",
   "success": true,
-  "projectFilePath": "D:\\brisi i guess\\dotNETProjects\\NotebookApp\\NotebookApp.csproj",
+  "projectFilePath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\NotebookApp .NET Core + Angular\\NotebookApp\\NotebookApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Damir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Damir\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
