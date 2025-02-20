@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|d:\\brisi i guess\\dotnetprojects\\reminderapp\\controllers\\remaindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|solutionrelative:controllers\\remaindercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|d:\\brisi i guess\\dotnetprojects\\reminderapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|d:\\brisi i guess\\dotnetprojects\\reminderapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|d:\\brisi i guess\\dotnetprojects\\reminderapp\\models\\dtos\\remainderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|solutionrelative:models\\dtos\\remainderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|d:\\brisi i guess\\dotnetprojects\\reminderapp\\models\\remainder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|solutionrelative:models\\remainder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|d:\\brisi i guess\\dotnetprojects\\reminderapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04133E08-3F85-4317-AE6D-F5364B5D3B8D}|ReminderApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RemainderDTO.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Models\\DTOs\\RemainderDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RemainderDTO.cs",
+              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Models\\DTOs\\RemainderDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\RemainderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T22:45:01.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RemainderController.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Controllers\\RemainderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RemainderController.cs",
+              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Controllers\\RemainderController.cs",
+              "RelativeToolTip": "Controllers\\RemainderController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwFcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T23:13:10.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T19:48:12.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:40:30.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:44:45.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Remainder.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Models\\Remainder.cs",
+              "RelativeDocumentMoniker": "Models\\Remainder.cs",
+              "ToolTip": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\Models\\Remainder.cs",
+              "RelativeToolTip": "Models\\Remainder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:41:00.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
