@@ -1,0 +1,19 @@
+   @import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+    
+    body {
+        background: linear-gradient(-45deg, #643365, #893a67, #de3965, #f16362);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }

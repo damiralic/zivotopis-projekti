@@ -2,7 +2,7 @@ import { RemainderContext } from "@/App";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import supabase from "@/supabase-client";
+import axios from "axios";
 import { createContext, useContext, useState } from "react";
 
 type TriggerType={
@@ -19,31 +19,30 @@ export const NewRemainder = () => {
   const {remainder,setRemainder} = useContext(RemainderContext);
 
   const fetchNewRemainders = async () => {
-    const {data, error} = await supabase.from("Reminder").select("*");
-    if(error){
-      console.log("Error fetching: ", error);
-    }else{
-        setRemainder(data);
-      }
+    await axios.get("https://localhost:7234/api/Remainder").then((res: any) => {
+      setRemainder(res.data);
+    })
   };
 
-    const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    const endDate = new Date().toLocaleString("en-CA", { timeZone: userTimeZone, hour12: false }).replace(",", "");
+  const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const endDateString = new Date().toLocaleString("en-CA", { timeZone: userTimeZone, hour12: false }).replace(",", "");
+
+  const endDate = new Date(endDateString);
 
     const addRemainder = async () => {
         const newRemainderData = {
           name: newRemainder,
           isCompleted: false,
-          endDate: endDate
+          startDateTime: endDate
         }
-        const {data, error} = await supabase.from("Reminder").insert([newRemainderData]).single();
-    
-        if(error){
-          console.log("Error adding remainder: ", error);
-        }else{
-          setRemainder((prev) => [...prev, data])
-          setNewRemainder("");
-          fetchNewRemainders();
+        try{
+          axios.post("https://localhost:7234/api/Remainder", newRemainderData).then((res) => {
+            setRemainder((prev) => [...prev, res.data])
+            setNewRemainder("");
+            fetchNewRemainders();
+          })
+        }catch (err){
+          console.error("Error adding remainder!", err);
         }
       }
 

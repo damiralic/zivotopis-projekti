@@ -1,0 +1,20 @@
+<body>
+  <div class="notebook-viewer">
+    <header class="viewer-header">
+      <h1>Notebook: <span id="note-title">{{notebookDetails.name}}</span></h1>
+    </header>
+    <main class="viewer-content">
+      <section class="note-section">
+        <h2 class="note-subtitle">Description:</h2>
+        <ckeditor 
+        class="note-description"
+        [editor]="Editor" 
+        [disabled]="true"
+        [config]="config" 
+        data="{{notebookDetails.text}}" 
+      ></ckeditor>
+        <p></p>
+      </section>
+    </main>
+  </div>
+</body>

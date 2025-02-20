@@ -1,11 +1,11 @@
-import { useEffect, useState, createContext, useContext } from 'react'
+import { useEffect, useState, createContext } from 'react'
 import './App.css'
-import supabase from "./supabase-client"
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { AppSidebar } from "@/components/app-sidebar"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { NewRemainder } from './pages/NewRemainder'
 import { ViewPage } from './pages/ViewPage'
+import axios from 'axios'
 
 // Array objekata, koji tip bi trebao biti ovdje?
 export const RemainderContext = createContext<{ remainder: any[], setRemainder: React.Dispatch<React.SetStateAction<any[]>> }>({ remainder: [], setRemainder: () => {} });
@@ -18,14 +18,10 @@ export default function App({children}: {children: React.ReactNode}) {
   }, []);
 
   const fetchRemainders = async () => {
-    const {data, error} = await supabase.from("Reminder").select("*");
-    if(error){
-      console.log("Error fetching: ", error);
-    }else{
-        setRemainder(data);
-      }
+    axios.get("https://localhost:7234/api/Remainder").then((res: any) => {
+      setRemainder(res.data);
+    })
   };
-
 
   return (
     <div>

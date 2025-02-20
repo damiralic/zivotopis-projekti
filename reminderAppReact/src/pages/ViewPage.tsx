@@ -1,11 +1,11 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
-import supabase from "@/supabase-client";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { RemainderContext } from "@/App";
+import axios from "axios";
 
 export const ViewPage = () => {
     const {id} = useParams()
@@ -19,25 +19,22 @@ export const ViewPage = () => {
     const [endDate, setEndDate] = useState("");
 
     const fetchAllRemainders = async () => {
-        const {data, error} = await supabase.from("Reminder").select("*");
-        if(error){
-          console.log("Error fetching: ", error);
-        }else{
-            setRemainder(data);
-          }
+      await axios.get("https://localhost:7234/api/Remainder").then((res: any) => {
+        setRemainder(res.data);
+      })
       };
 
     const fetchNewRemainders = async () => {
-        const {data, error} = await supabase.from("Reminder").select().eq("id", id).single();
-        if(error){
-          console.log("Error fetching: ", error);
-          navigate('/', {replace: true});
-        }else{
-            setName(data.name);
-            setIsCompleted(data.isCompleted);
-            setEndDate(data.endDate);
-            console.log(data);
-          }
+      try{
+        await axios.get("https://localhost:7234/api/Remainder/" + id).then((res) => {
+            setName(res.data.name);
+            setIsCompleted(res.data.isCompleted);
+            setEndDate(res.data.endDate);
+            console.log(res.data);
+        })
+      }catch(err){
+        console.error("Problem fetching with id:", err);
+      }
       };
 
       const IsCompletedTrue = () => {
@@ -49,14 +46,17 @@ export const ViewPage = () => {
     }, [id, navigate])
 
     const updateRemainder = async () => {
-        const {data, error} = await supabase.from("Reminder").update({name, isCompleted, endDate}).eq("id", id).select();
-    
-        if(error){
-          console.log("Error adding remainder: ", error);
-        }else{
-            fetchAllRemainders();
-        }
+
+      try{
+        await axios.put(`https://localhost:7234/api/Remainder/${id}`, {name, isCompleted, endDate});
+
+        fetchAllRemainders();
+
+        
+      }catch (err){
+        console.error("Error updating remainder!", err);
       }
+    }
 
     return (
         <div>

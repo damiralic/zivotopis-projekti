@@ -16,20 +16,20 @@ import {
 import { MoreHorizontal, Pencil, Plus } from "lucide-react";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
 import { Link } from "react-router-dom";
-import supabase from "@/supabase-client";
+import axios from "axios";
 
  
 export function AppSidebar() {
 const {remainder, setRemainder} = useContext(RemainderContext);
 
 const DeleteRemainder = async (id: number) => {
-    const {data, error} = await supabase.from("Reminder").delete().eq("id", id);
-
-    if(error){
-        console.log("Error deleting task: ", error);
-    }else{
-        setRemainder((prev) => prev.filter((rem) => rem.id !== id));
-    }
+  try{
+    await axios.delete("https://localhost:7234/api/Remainder/" + id).then((res) => {
+      setRemainder((prev) => prev.filter((rem) => rem.id !== id));
+    });
+  }catch(err){
+    console.error(err);
+  }
 }
   return (
     <Sidebar>

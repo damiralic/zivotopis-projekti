@@ -1,0 +1,44 @@
+<div class="background">
+<header>
+  <div class="input-container">
+    <input 
+      type="text"
+      (keyup)="applyFilter($event)" 
+      matInput 
+      placeholder="Search for a notebook here..." 
+      #input>
+      <button mat-stroked-button (click)="openAddDialog()">Add a note</button>
+  </div>
+</header>
+<div class="notes-container">
+    @for (note of allNotebooks; track $index) {
+      <div class="note">
+        <div class="note-header">
+          <h3>{{ note.name }}</h3>
+          <div class="note-actions">
+            <mat-icon (click)="openViewDialog(note.id)" class="action-button">visibility</mat-icon>
+            <mat-icon (click)="openEditDialog(note.id)" class="action-button">edit</mat-icon>
+            <mat-icon (click)="deleteNotebook(note.id)" class="action-button">delete</mat-icon>
+          </div>
+        </div>
+        <div class="note-content" (click)="openViewDialog(note.id)">
+          <ckeditor 
+            [editor]="Editor" 
+            [disabled]="true"
+            [config]="config" 
+            data="{{ note.text | maxWords: 350 }}" 
+            class="note-editor">
+          </ckeditor>
+        </div>
+      </div>
+    }
+</div>
+<div class="pagination-container">
+  <mat-paginator 
+    [length]="notebookCount"
+    [pageSize]="pageSize"
+    [pageSizeOptions]="[50, 100, 200]"
+    (page)="onPageChange($event)">
+  </mat-paginator>
+</div>
+</div>

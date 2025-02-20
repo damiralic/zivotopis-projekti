@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>Add a new notebook</h2>
+<mat-dialog-content class="mat-typography">
+        <mat-form-field class="example-full-width">
+          <mat-label>Notebook name</mat-label>
+          <input matInput #message [(ngModel)]="notebookDetails.name">
+        </mat-form-field>
+        <br>
+        <ckeditor [(ngModel)]="notebookDetails.text" [editor]="Editor" [config]="config" data="{{notebookDetails.text}}"></ckeditor>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="updateNotebookClick()">Update</button>
+</mat-dialog-actions>

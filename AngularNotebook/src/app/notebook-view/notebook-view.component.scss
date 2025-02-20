@@ -1,0 +1,93 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Notebook Viewer Container */
+  .notebook-viewer {
+    width: 90%;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Header Section */
+  .viewer-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #3e8e41;
+  
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+  
+      #note-title {
+        font-style: italic;
+        font-weight: normal;
+      }
+    }
+  }
+  
+  /* Main Content */
+  .viewer-content {
+    padding: 20px;
+  }
+  
+  /* Note Section */
+  .note-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: translateY(-2px);
+    }
+  
+    .note-subtitle {
+      font-size: 20px;
+      font-weight: bold;
+      color: #4caf50;
+      margin-bottom: 15px;
+    }
+  
+    .note-description {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+      white-space: pre-wrap; /* Ensures line breaks in text are respected */
+      word-wrap: break-word; /* Prevents text from overflowing */
+    }
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
