@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26B78136-D0E7-4868-83D4-376DB882BAA0}|API\\API.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\activities(react\u002B.netcore)\\be\\api\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B78136-D0E7-4868-83D4-376DB882BAA0}|API\\API.csproj|solutionrelative:api\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B78136-D0E7-4868-83D4-376DB882BAA0}|API\\API.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\activities(react\u002B.netcore)\\be\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B78136-D0E7-4868-83D4-376DB882BAA0}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CF3E15-735F-4A7D-9B0C-C86F2226A4F2}|Persistence\\Persistence.csproj|d:\\brisi i guess\\finishedpersonalprojects\\zivotopis-projekti\\activities(react\u002B.netcore)\\be\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CF3E15-735F-4A7D-9B0C-C86F2226A4F2}|Persistence\\Persistence.csproj|solutionrelative:persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivitiesController.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\API\\Controllers\\ActivitiesController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ActivitiesController.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\API\\Controllers\\ActivitiesController.cs",
+              "RelativeToolTip": "API\\Controllers\\ActivitiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:31:45.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:01:56.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\Activities(React\u002B.NETCore)\\BE\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:42:06.13Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

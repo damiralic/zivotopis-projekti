@@ -1,9 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
 import { RemainderContext } from "@/App";
 import axios from "axios";
 
@@ -16,7 +12,7 @@ export const ViewPage = () => {
 
     const [name, setName] = useState("");
     const [isCompleted, setIsCompleted] = useState(false);
-    const [endDate, setEndDate] = useState("");
+    const [endDate, setEndDate] = useState<Date>();
 
     const fetchAllRemainders = async () => {
       await axios.get("https://localhost:7234/api/Remainder").then((res: any) => {
@@ -36,6 +32,7 @@ export const ViewPage = () => {
         console.error("Problem fetching with id:", err);
       }
       };
+  
 
       const IsCompletedTrue = () => {
         setIsCompleted(true);
@@ -61,11 +58,16 @@ export const ViewPage = () => {
     return (
         <div>
         <div className="flex w-full max-w-lg items-center space-x-2 absolute top-20 left-1/2 transform -translate-x-1/2 text-center">
-        <Label htmlFor="Title">Title</Label>
+        {/* <Label htmlFor="Title">Title</Label>
         <Input type="text" id="title" placeholder="Title" value={name} onChange={(e) => setName(e.target.value)}/>
         <Button type="submit" onClick={updateRemainder}>Update remainder</Button>
         <Button type="submit" onClick={IsCompletedTrue}>Check for complete</Button>
         {isCompleted == true && <Check />}
+                <Calendar
+              mode="single"
+              selected={endDate}
+              className="rounded-md border shadow"
+            /> */}
       </div>
       </div>
     );

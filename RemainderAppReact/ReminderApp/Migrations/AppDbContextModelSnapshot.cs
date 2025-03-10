@@ -31,8 +31,8 @@ namespace ReminderApp.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime?>("StartDateTime")
-                        .HasColumnType("datetime(6)");
+                    b.Property<DateOnly?>("StartDateTime")
+                        .HasColumnType("date");
 
                     b.Property<bool?>("isCompleted")
                         .HasColumnType("tinyint(1)");

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReminderApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f90e05db44967ca52c37f71b7fa2b03cc07650d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReminderApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReminderApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

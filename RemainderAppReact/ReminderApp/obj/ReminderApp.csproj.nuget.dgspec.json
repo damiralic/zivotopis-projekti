@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\ReminderApp.csproj": {}
+    "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\RemainderAppReact\\ReminderApp\\ReminderApp.csproj": {}
   },
   "projects": {
-    "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\ReminderApp.csproj": {
+    "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\RemainderAppReact\\ReminderApp\\ReminderApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\ReminderApp.csproj",
+        "projectUniqueName": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\RemainderAppReact\\ReminderApp\\ReminderApp.csproj",
         "projectName": "ReminderApp",
-        "projectPath": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\ReminderApp.csproj",
+        "projectPath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\RemainderAppReact\\ReminderApp\\ReminderApp.csproj",
         "packagesPath": "C:\\Users\\Damir\\.nuget\\packages\\",
-        "outputPath": "D:\\brisi i guess\\dotNETProjects\\ReminderApp\\obj\\",
+        "outputPath": "D:\\brisi i guess\\FinishedPersonalProjects\\zivotopis-projekti\\RemainderAppReact\\ReminderApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Damir\\AppData\\Roaming\\NuGet\\NuGet.Config",
